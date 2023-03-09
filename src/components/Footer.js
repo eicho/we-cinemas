@@ -12,24 +12,22 @@ export const Footer = () => {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6 ">
+          <span className="mr-4 md:mr-6 hover:underline hover:cursor-pointer">
             Instagram
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <span className="mr-4 md:mr-6 hover:underline hover:cursor-pointer">
             LinkedIn
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <span className="mr-4 md:mr-6 hover:underline hover:cursor-pointer">
             Youtube
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#" target="_blank" className="hover:underline">
-            Github
-          </a>
+          <span className="hover:underline hover:cursor-pointer">Github</span>
         </li>
       </ul>
     </footer>
